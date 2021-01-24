@@ -1,5 +1,5 @@
 ---
-title: The Book
+title: About the Book
 featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: The book
@@ -9,16 +9,14 @@ weight: 1
 
 ---
 
-Crypto Dictionary is the ultimate **reference for all things
-cryptography** (including cryptocurrency) for experts and novices alike.
 Crypto Dictionary is rigorous in its definitions, yet easy to read and
-laced with humor. Flip to any random page to find something new,
-interesting, or mind-boggling,
+laced with humor. Flip to any random page to discover something new
+or mind-boggling, from history trivia to the lastest research concepts.
 
 Crypto Dictionary is available as a **DRM-free e-book** and soon as printed
 copy via [No
 Starch Press](https://nostarch.com/crypto-dictionary).
-It will also be available on the usual book resellers platforms,
+It will also be available on the all major book resellers,
 including
 [Amazon](https://www.amazon.com/Crypto-Dictionary-Cryptographic-Tidbits-Curious-ebook/dp/B08PHS676K/),
 [B&N](https://www.barnesandnoble.com/w/crypto-dictionary-jean-philippe-aumasson/1138326888),
@@ -27,7 +25,7 @@ including
 Get a free **sample chapter** including the ["B"
 definitions](https://nostarch.com/download/samples/CryptoDictionary_Sample_B.pdf).
 
-Here's the **full list** of terms defined in the book:
+This is the **full list** of terms defined in the book:
 
 <div style="column-count:3;column-rule:1px dotted #DEDEDE;">
 
