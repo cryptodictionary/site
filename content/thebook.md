@@ -1,5 +1,5 @@
 ---
-title: The book
+title: The Book
 featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: The book

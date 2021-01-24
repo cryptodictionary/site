@@ -1,5 +1,5 @@
 ---
-title: Extra content
+title: Extra Content
 featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: More definitions

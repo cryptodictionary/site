@@ -10,7 +10,8 @@ weight: 4
 ---
 
 If you have any question, errata report, or suggestion of new
-definitions, you can get in touch with the author, Jean-Philippe
-Aumasson, at jeanphilippe.aumasson@gmail.com.
+definitions, you can get in touch with the author, [Jean-Philippe
+Aumasson](https://aumasson.jp) ([@veorq](https://twitter.com/veorq)), at
+jeanphilippe.aumasson@gmail.com.
 
 
