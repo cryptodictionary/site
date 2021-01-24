@@ -1,6 +1,6 @@
 ---
 title: "Crypto Dictionary"
-featured_image: '/images/cd.png'
+featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: "500 Tasty Tidbits for the Curious Cryptographer"
 ---
@@ -11,7 +11,4 @@ written by [JP Aumasson](https://aumasson.jp) (the
 author of [Serious Cryptography](https://nostarch.com/seriouscrypto))
 and published by [No Starch
 Press](https://nostarch.com).
-
-
-
 

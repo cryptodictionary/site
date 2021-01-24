@@ -40,3 +40,10 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/cover.png"
   recent_posts_number = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

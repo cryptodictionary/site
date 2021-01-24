@@ -1,6 +1,6 @@
 ---
 title: Extra content
-featured_image: '/images/cd.png'
+featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: More definitions
 type: page
@@ -10,11 +10,11 @@ weight: 3
 ---
 
 
-The new definitions on this page extend those already in [Crypto
+The **new definitions** on this page extend those already in [Crypto
 Dictionary](https://nostarch.com/crypto-dictionary), and might appear in
 future versions of the book.
 
-This is **work in progress**. New definitions will appear regularly. 
+This is work in progress. New definitions will appear regularly. 
 
 
 

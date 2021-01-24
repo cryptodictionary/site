@@ -1,6 +1,6 @@
 ---
 title: Contact
-featured_image: '/images/cd.png'
+featured_image: '/images/cd.jpg'
 omit_header_text: true
 description: Get in touch
 type: page
