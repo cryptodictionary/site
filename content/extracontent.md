@@ -1,7 +1,6 @@
 ---
 title: Extra Content
-featured_image: '/images/cd.jpg'
-omit_header_text: true
+omit_header_text: false
 description: More definitions
 type: page
 menu: main

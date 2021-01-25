@@ -1,6 +1,5 @@
 ---
-title: About the Author
-featured_image: '/images/cd.jpg'
+title: The Author
 omit_header_text: true
 description: Get in touch
 type: page
@@ -8,6 +7,8 @@ menu: main
 weight: 3
 
 ---
+
+<img src="/images/jpnb.png">
 
 Jean-Philippe (JP) Aumasson is the Chief Security Officer and cofounder
 of Taurus Group, a Swiss financial tech company specializing in digital

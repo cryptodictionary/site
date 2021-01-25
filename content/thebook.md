@@ -1,6 +1,5 @@
 ---
-title: About the Book
-featured_image: '/images/cd.jpg'
+title: The Book
 omit_header_text: true
 description: The book
 type: page
@@ -8,6 +7,7 @@ menu: main
 weight: 1
 
 ---
+
 
 Crypto Dictionary is rigorous in its definitions, yet easy to read and
 laced with humor. Flip to any random page to discover something new
@@ -23,7 +23,10 @@ including
 [Penguin](https://www.penguinrandomhouse.com/books/676692/crypto-dictionary-by-jean-philippe-aumasson/).
 
 Get a free **sample chapter** including the ["B"
-definitions](https://nostarch.com/download/samples/CryptoDictionary_Sample_B.pdf).
+definitions](https://nostarch.com/download/samples/CryptoDictionary_Sample_B.pdf),
+including for example:
+
+<img src="/images/b64.png">
 
 This is the **full list** of terms defined in the book:
 
