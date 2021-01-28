@@ -193,7 +193,7 @@ This is the **full list** of terms defined in the book:
 ##### Factoring problem
 ##### Feedback shift register
 ##### Feistel network
-##### Fialka ({\timesnewroman Фиалка)
+##### Fialka (Фиалка)
 ##### Fiat-Shamir
 ##### FIPS 140-2
 ##### FIPS 140-3
