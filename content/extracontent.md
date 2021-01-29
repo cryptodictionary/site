@@ -144,6 +144,10 @@ trouveront leur profit à déchiffrer tout ce gâchis.»
 
 ## Key commitment 
 
+## Military grade
+
+Cryptography marketed as military grade if often to crypto what military
+music is to music.
 
 
 ## Nym server
@@ -163,6 +167,7 @@ Online:
 ## PASS (password-authenticated secret sharing) 
 
 
+## ROT13
 
 ## SexTNFS (special extender tower NFS)
 
