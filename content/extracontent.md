@@ -15,6 +15,7 @@ future versions of the book.
 
 This is work in progress. New definitions will appear regularly. 
 
+(For their help, thanks to: Antony Vennard.)
 
 
 ## Ate pairing
@@ -28,6 +29,7 @@ signatures*, *Pairing*.
 
 Online:
 
+* <https://eprint.iacr.org/2006/110.pdf>
 * <https://www.esat.kuleuven.be/cosic/publications/talk-73.pdf>
 
 
@@ -148,6 +150,31 @@ trouveront leur profit à déchiffrer tout ce gâchis.»
 
 Cryptography marketed as military grade if often to crypto what military
 music is to music.
+
+
+## Miller loop
+
+The core algorithm of elliptic curve pairings used in crypto (Ate, Eta,
+Tate, Weil).
+
+Online:
+
+* <https://crypto.stanford.edu/miller/>
+
+
+## MOV attack
+
+A technique to solve a seemingly hard elliptic-curve discrete logarithm
+problem by solving a discrete logarithm in an integer multiplicative
+group and translating the solution back to elliptic-curve land.
+
+This only works for certain curves (the *supersingular* ones).
+
+The "MOV" abbreviation is from the authors' names.
+
+Online:
+
+* <https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf>
 
 
 ## Nym server
