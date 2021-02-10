@@ -1,4 +1,4 @@
-title = "Crypto Dictionary"
+title = "Crypto Dictionary Book Site"
 baseURL = "https://cryptodictionary.github.io"
 languageCode = "en-us"
 theme = "ananke"
@@ -24,7 +24,7 @@ enableRobotsTXT = true
 [params]
   favicon = ""
   site_logo = ""
-  description = "The ultimate crypto dictionary."
+  description = "Site of the book Crypto Dictionary by Jean-Philippe Aumasson (No Starch Press, 2020)"
   facebook = ""
   twitter = "https://twitter.com/cryptolexicon"
   instagram = ""
