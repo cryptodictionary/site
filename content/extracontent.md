@@ -18,6 +18,22 @@ This is work in progress. New definitions will appear regularly.
 (For their help, thanks to: Antony Vennard.)
 
 
+## שבתא
+
+Like Noekeon and ROT13, an involution.
+About as secure as the latter.
+Pronounced "atbash".
+
+
+## API
+
+Cryptographic APIs have often been confusing and error-prone for
+cryptographers, and impenetrable for mere mortals.
+The situation considerably improved since the 2010s, thanks to libraries
+such as NaCl (and its sister Sodium) and built-in language APIs such as
+that of Go.
+
+
 ## Ate pairing
 
 The most efficient elliptic-curve pairing known.
@@ -86,9 +102,34 @@ Online:
 
 ## Confusion
 
+Cryptographically strong propagation of changes from an input throughout
+the computation of a hash function's or block cipher's rounds.
+If changes in (say) a given input bit don't affect some given output
+bit, or if they do only with some statistical bias, then the algorithm
+doesn't behave randomly and can be attacked by differential
+cryptanalysis techniques.
+
+Stacking confusion layers may never lead to a secure cipher if they
+can't bring diffusion across all the state's bits.
+For example, if AES only had S-boxes—the confusion-heavy
+<code>SubBytes</code> operation)—a change in any Nth input byte would
+only affect the Nth output byte.
+Likewise, AES without <code>ShiftRows</code>—but with all other layers
+including the column-wise diffusion layer <code>MixColumns</code>—then
+differences would never propagate across rows of AES's 4×4-byte square
+state.
+
+See *Diffusion*.
+
+
 ## Covert channel
 
+
+
 ## Cryptozoology
+
+Prefixing some word with "crypto" doesn't make it legitimate.
+
 
 ## DeFi
 
@@ -97,11 +138,14 @@ Online:
 
 ## Diffusion
 
+Broad but cryptographically shallow propagation of changes from an input
+throughout the computation of a hash function's or block cipher's
+rounds.
 
+See *Confusion*.
 
 
 ## Distributed password-authenticated symmetric key encryption (DPaSE)
-
 
 
 
@@ -197,9 +241,10 @@ Online:
 
 ## PASS (password-authenticated secret sharing) 
 
+
 ## ROT13
 
-Military-grade encrypt, if you live in the year -60 BC.
+Military-grade encryption, if you live in the year -60 BC.
 
 
 ## SexTNFS (special extender tower NFS)
