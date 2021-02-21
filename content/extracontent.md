@@ -220,9 +220,6 @@ Online:
 
 * <https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf>
 
-## Military grade
-
-Cryptography marketed as military grade is often to crypto what military music is to music.
 
 
 ## Nym server
