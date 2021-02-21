@@ -18,7 +18,7 @@ This is work in progress. New definitions will appear regularly.
 (For their help, thanks to: Antony Vennard.)
 
 
-## שבתא
+## אתבש
 
 Like Noekeon and ROT13, an involution.
 About as secure as the latter.
