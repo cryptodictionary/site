@@ -187,6 +187,16 @@ latest research, concluding by asking his friend to ask "Jacobi or
 Gauss" their opinion and concluded «il y aura, j'espère, des gens qui
 trouveront leur profit à déchiffrer tout ce gâchis.»
 
+## HopMAC
+
+A member from the Keccak family missing from our first edition's
+inventory. HopMAC is to KangrarooTwelve (K12) what HMAC is to SHA-2: a MAC
+construction from a hash function, which does <code>HopMAC(K, M, C) =
+K12(K, K12(M, C))</code>, where the inner K12 call returns a 256-bit hash
+and the outer returns an arbitrary length hash. The parameter
+<code>C</code> is a "customization string", support as a second argument
+of K12.
+
 
 ## Key commitment 
 
