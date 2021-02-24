@@ -228,6 +228,13 @@ of K12.
 
 ## Key commitment 
 
+The property of authenticated encryption that a ciphertext requires the
+correct key to decrypt to a valid plaintext.
+
+Online:
+
+* <https://eprint.iacr.org/2020/1456>
+
 ## Military grade
 
 Cryptography marketed as military grade if often to crypto what military
