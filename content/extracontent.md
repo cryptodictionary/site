@@ -169,6 +169,12 @@ See *Confusion*.
 
 ## Distributed password-authenticated symmetric key encryption (DPaSE)
 
+Protocol involving multiple servers to allow a user to encrypt and
+decrypt data with keys derived from a single password in a way that
+prevents offline password guessing hides plaintext and ciphertext from
+the servers.
+There is an additional operational cost to run the associated
+infrastructure and mitigate DoS risks.
 
 
 ## Eth2
