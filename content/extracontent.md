@@ -124,6 +124,28 @@ See *Diffusion*.
 
 ## Covert channel
 
+Surreptitious transmission of information through a channel not intended
+to transfer information of that sort or in that way, in order to evade
+detection or analysis. Classes of covert channels include
+
+* Storage channels, such as hiding data in innocuous-looking usage of
+  some network protocol (DNS is a popular choice), steganography
+  techniques, or social media services.
+
+* Timing channels, when for example a system's response time is use to
+  signal some information.
+
+* Behavior channels, where behavior patterns encode some information.
+  Port knocking can be seen as such a covert channel.
+
+Covert channels aren't much about cryptography. They don't hide the
+communication content but the fact that communication happens at all.
+They're thus useful in data exfiltration and communication between illegal
+network operatives, for example.
+
+Online:
+
+* <https://fas.org/irp/nsa/rainbow/tg030.htm>
 
 
 ## Cryptozoology
