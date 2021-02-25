@@ -233,7 +233,7 @@ correct key to decrypt to a valid plaintext.
 
 Online:
 
-* <https://eprint.iacr.org/2020/1456>
+* <https://eprint.iacr.org/2020/1456.pdf>
 
 ## Military grade
 
@@ -281,7 +281,6 @@ Online:
 
 * <https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf>
 
-## PASS (password-authenticated secret sharing) 
 
 
 ## ROT13
@@ -312,6 +311,12 @@ See *BLS (Barreto-Lynn-Scott) curves*.
 Blockchain with a funny smart contract language (Michelson), and a lot
 of Ocaml.
 
+
+## Threshold password-authenticated secret sharing (TPASS)
+
+Online:
+
+* <https://eprint.iacr.org/2010/561.pdf>
 
 ## Verifiable timed signature
 
