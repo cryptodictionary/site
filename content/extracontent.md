@@ -237,7 +237,7 @@ Online:
 
 ## Military grade
 
-Cryptography marketed as military grade if often to crypto what military
+Cryptography marketed as military grade is often to crypto what military
 music is to music.
 
 
