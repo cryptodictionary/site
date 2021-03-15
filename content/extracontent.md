@@ -328,8 +328,24 @@ See *BLS (Barreto-Lynn-Scott) curves*.
 
 ## SPHINX 
 
+A message format designed to be used in mixnet-based anonymity networks,
+with provable security guarantees (in the random oracle model).
+
+Online:
+
+* <https://www.freehaven.net/anonbib/cache/DBLP:conf/sp/DanezisG09.pdf>
+
 
 ## Template attack
+
+A class of power analysis attacks where the attacker can first play with
+the attacked device, controlling all values including secret keys, in
+order to built a statistical model of the correlations between values
+and measurements.
+The actual attack then leverages this model, or template, to extract
+information from physical measurements.
+
+
 
 
 ## Tezos
