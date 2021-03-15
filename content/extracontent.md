@@ -17,6 +17,13 @@ This is work in progress. New definitions will appear regularly.
 
 (For their help, thanks to: Antony Vennard.)
 
+## 0
+
+ePrint crasher.
+
+Online:
+
+* <https://eprint.iacr.org/2021/323>
 
 ## אתבש
 
@@ -36,6 +43,19 @@ that of Go.
 
 ## ARLEAS
 
+Abuse resistant lawful enforcement access systems, or lawful
+interception that cryptographers might live with, thanks to lossy
+encryption, zero-knowledge proofs, and a global immutable ledger.
+
+The paper formalizing ARLEAS demonstrates thet "cryptographic
+implausibility" of retrospective abuse-resistant interception, or access
+to communication content that predates a warrant's issuance. 
+It's because this would require that all participants be at
+any time potentially subject to interception.
+
+Online:
+
+* <https://eprint.iacr.org/2021/321>
 
 
 ## Ate pairing
