@@ -290,6 +290,12 @@ Online:
 * <https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf>
 
 
+## Multi-signature
+
+Collective signature schemes often implemented on-chain (typically via
+Bitcoin scripts, or smart contracts), whose difference with threshold
+signatures is that they reveal the identities of individual signers. 
+
 
 ## Nym server
 
@@ -307,6 +313,13 @@ Online:
 
 
 ## Proof of publication
+
+## PSS (probabilistic signature scheme)
+
+Signature scheme designed to develop randomized, provably-secure RSA
+signatures, standardized in PKCS#1 v2.1.
+But RSA-PSS is about as secure as the simplistic deterministic full
+domain hash (RSA-FDH), even when PSS is not randomized.
 
 
 ## ROT13
