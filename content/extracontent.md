@@ -171,6 +171,14 @@ Online:
 
 * <https://fas.org/irp/nsa/rainbow/tg030.htm>
 
+## C.R.E.A.M.
+
+Crypto rules everything around me.
+
+Online:
+
+* <https://www.youtube.com/watch?v=zhUnEg0he4A>
+
 
 ## Cryptozoology
 
