@@ -246,7 +246,7 @@ inventory. HopMAC is to KangrarooTwelve (K12) what HMAC is to SHA-2: a MAC
 construction from a hash function, which does <code>HopMAC(K, M, C) =
 K12(K, K12(M, C))</code>, where the inner K12 call returns a 256-bit hash
 and the outer returns an arbitrary length hash. The parameter
-<code>C</code> is a "customization string", support as a second argument
+<code>C</code> is a "customization string", supported as a second argument
 of K12.
 
 
