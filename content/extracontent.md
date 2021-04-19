@@ -322,6 +322,9 @@ Online:
 
 ## Proof of publication
 
+Advanced hashing.
+
+
 ## PSS (probabilistic signature scheme)
 
 Signature scheme designed to develop randomized, provably-secure RSA
@@ -367,23 +370,23 @@ The actual attack then leverages this model, or template, to extract
 information from physical measurements.
 
 
-
-
 ## Tezos
 
 Blockchain with a funny smart contract language (Michelson), and a lot
 of Ocaml.
 
 
-## Threshold password-authenticated secret sharing (TPASS)
+## Verifiable timed signature
+
+Signatures that can't be verified before a certain amount of time.
+Introducing a notion of time to a blockchain (with essentially only
+block indexes a a clock) can help create better blockchain-based payment
+channels and safer multi-party computation protocols for on-chain
+applications.
 
 Online:
 
-* <https://eprint.iacr.org/2010/561.pdf>
-
-## Verifiable timed signature
-
-
+* <https://eprint.iacr.org/2020/1563.pdf>
 
 ## Yarrow
 
@@ -398,3 +401,19 @@ Online:
 
 * <https://www.schneier.com/wp-content/uploads/2016/02/paper-yarrow.pdf>
 
+
+## ZK-Rollup
+
+A layer-2 protocol for Ethereum that uses SNARKs to improve
+performance (as in, transactions per second).
+ZK-Rollup works by making computations
+off-chain and storage off-chain and creating a zero-knowledge proof of
+validity of a transaction, which is verified by a smart contract.
+
+The main ZK-Rollup deployment is zkSync.
+
+Online:
+
+* <https://ethereum.org/en/developers/docs/layer-2-scaling/>
+* <https://zksync.io/>
+* <https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15>
