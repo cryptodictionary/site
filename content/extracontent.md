@@ -320,6 +320,13 @@ Online:
 * <https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf>
 
 
+## Proof of possession
+
+Part of a protocol that requires knowledge of secret key (KOSK) evidence
+in order to be secure. 
+The actual proof of possession is typically as simple as a signature.
+
+
 ## Proof of publication
 
 Advanced hashing.
