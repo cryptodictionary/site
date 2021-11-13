@@ -319,12 +319,35 @@ Online:
 
 * <https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf>
 
+## Pedersen commitment
+
+A commitment scheme based on a hash function using algebraic operations
+rather than bits-mixing operations like most hash functions. 
+Thanks to the algebraic structure of the hash, it can be used to create
+commitment schemes that are homomorphic (additively) and provably secure
+under the decisional Diffie-Hellman assumption.
+
+
+## Poseidon
+
+A hash function that is zero-knowledge proof-friendly, thanks to its
+compact representation as a circuit.
+
 
 ## Proof of possession
 
 Part of a protocol that requires knowledge of secret key (KOSK) evidence
 in order to be secure. 
 The actual proof of possession is typically as simple as a signature.
+
+## Proof of proof of work
+
+A technique to verify proof-of-work chains of blocks with sublinear
+complexity in the length of the chain.
+
+Online:
+
+* <http://fc16.ifca.ai/bitcoin/papers/KLS16.pdf>
 
 
 ## Proof of publication
@@ -417,7 +440,7 @@ ZK-Rollup works by making computations
 off-chain and storage off-chain and creating a zero-knowledge proof of
 validity of a transaction, which is verified by a smart contract.
 
-The main ZK-Rollup deployment is zkSync.
+The main ZK-Rollup deployment (at the time of writing) is zkSync.
 
 Online:
 
