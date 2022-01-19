@@ -434,16 +434,16 @@ Online:
 
 ## ZK-Rollup
 
-A layer-2 protocol for Ethereum that uses SNARKs to improve
-performance (as in, transactions per second).
-ZK-Rollup works by making computations
-off-chain and storage off-chain and creating a zero-knowledge proof of
-validity of a transaction, which is verified by a smart contract.
-
-The main ZK-Rollup deployment (at the time of writing) is zkSync.
+Class of layer-2 protocols over blockchains that use zk-SNARKs to create
+validity proofs recorded on the blockchain, while keeping the actual
+computation off-chain, yet data on-chain.
+The rollups that don't use zk-SNARKs are Optimistic Rollups and use a
+different validation mechanism.
+Rollups that store data on-chain are usually not called rollups, but
+"plasma" or "validia" protocols.
 
 Online:
 
 * <https://ethereum.org/en/developers/docs/layer-2-scaling/>
-* <https://zksync.io/>
+* <https://l2beat.com/>
 * <https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15>
