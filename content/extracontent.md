@@ -15,7 +15,7 @@ future versions of the book.
 
 This is work in progress. New definitions will appear regularly. 
 
-(For their help, thanks to: Antony Vennard.)
+(For their help, thanks to: Antony Vennard, Peter Gutmann.)
 
 ## 0
 
@@ -47,7 +47,7 @@ Abuse resistant lawful enforcement access systems, or lawful
 interception that cryptographers might live with, thanks to lossy
 encryption, zero-knowledge proofs, and a global immutable ledger.
 
-The paper formalizing ARLEAS demonstrates thet "cryptographic
+The paper formalizing ARLEAS demonstrates that "cryptographic
 implausibility" of retrospective abuse-resistant interception, or access
 to communication content that predates a warrant's issuance. 
 It's because this would require that all participants be at
@@ -208,6 +208,9 @@ the servers.
 There is an additional operational cost to run the associated
 infrastructure and mitigate DoS risks.
 
+## EAP
+
+The turducken of authentication protocols.
 
 ## Eth2
 
@@ -304,6 +307,12 @@ Collective signature schemes often implemented on-chain (typically via
 Bitcoin scripts, or smart contracts), whose difference with threshold
 signatures is that they reveal the identities of individual signers. 
 
+## Nonrepudiation 
+
+A legal-sounding term invented by standards group members without
+consultation with lawyers to describe a service that crypto can't
+provide.  X.509 eventually replaced it with "content commitment", but by
+then the damage had been done.
 
 ## Nym server
 
@@ -337,8 +346,11 @@ compact representation as a circuit.
 ## Proof of possession
 
 Part of a protocol that requires knowledge of secret key (KOSK) evidence
-in order to be secure. 
-The actual proof of possession is typically as simple as a signature.
+in order to be secure. The actual proof of possession is typically as
+simple as a signature. Less sensible proofs of possession include
+sending your private key to the other party. CMP, the Certificate
+Mismanagement Protocol, actually does this, or at least provides for it
+in the protocol.
 
 ## Proof of proof of work
 
@@ -352,7 +364,7 @@ Online:
 
 ## Proof of publication
 
-Advanced hashing.
+Advanced hashing. Something to request grant money.
 
 
 ## PSS (probabilistic signature scheme)
@@ -365,7 +377,7 @@ domain hash (RSA-FDH), even when PSS is not randomized.
 
 ## ROT13
 
-Military-grade encryption, if you live in the year -60 BC.
+Military-grade encryption, if you live in the year 60 BC.
 
 
 ## SexTNFS (special extender tower NFS)
@@ -378,6 +390,17 @@ BLS12-381, whose estimated 128-bit security level was later slightly
 downgraded as well.
 
 See *BLS (Barreto-Lynn-Scott) curves*.
+
+
+## Shamir's law
+
+Crypto is bypassed, not penetrated.
+
+Full Shamir quote: "Cryptography is usually bypassed. I am not aware of
+any major world-class security system employing cryptography in which
+the hackers penetrated the system by actually going through the
+cryptanalysis [...] usually there are much simpler ways of penetrating
+the security system".
 
 
 ## SPHINX 
@@ -423,7 +446,12 @@ Online:
 A pseudorandom generator that was notably used in Apple's OSX/macOS
 until Apple replaced it by its successor Fortuna.
 
-> Yarrow is a owering perennial with distintive at ower heads and lay leaves, like Queen Anne's Lae or wild arrot. Yarrow stalks have been used for divination in China sine the Hsia dynasty, in the seond millennium B.C.E. The fortuneteller would divide a set of 50 stalks into piles, then repeatedly use modulo arithmetic to generate two bits of random information (but with a nonuniform distribution) 
+> Yarrow is a owering perennial with distinctive at flower heads and lay
+leaves, like Queen Anne's Lae or wild arrot. Yarrow stalks have been
+used for divination in China sine the Hsia dynasty, in the seond
+millennium B.C.E. The fortuneteller would divide a set of 50 stalks into
+piles, then repeatedly use modulo arithmetic to generate two bits of
+random information (but with a nonuniform distribution) 
 
 See *Fortuna*.
 

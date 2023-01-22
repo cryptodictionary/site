@@ -532,3 +532,21 @@ This is the **full list** of terms defined in the book:
 ##### ZRTP
 
 </div>
+
+**Errata** (thanks for Peter Gutmann):
+
+* Forgery: Missing parenthesis at the end.
+
+* Kerberos: It's not really used in RADIUS, it can in theory be used in
+  EAP.
+
+* MDC: The abbreviation originally stands for "Modification Detection
+  Code"; "Message Digest Cipher" was used during the crypto wars to turn
+  an exportable hash back into a nonexportable encryption mechanism
+ 
+* NIST: "algorithms design" -> "algorithm design".
+
+* PGP: it's not really the de facto email encryption standard, the de
+  facto one that virtually everyone doesn't use is S/MIME, it's built
+  into most email programs.  The one that a much smaller number of
+  people don't use is PGP.
