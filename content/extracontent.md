@@ -333,8 +333,9 @@ Online:
 A commitment scheme based on a hash function using algebraic operations
 rather than bits-mixing operations like most hash functions. 
 Thanks to the algebraic structure of the hash, it can be used to create
-commitment schemes that are homomorphic (additively) and provably secure
-under the decisional Diffie-Hellman assumption.
+commitment schemes that are additively homomorphic, and provably secure
+(perfectly hiding, and computationally binding under the discrete
+logarithm assumption).
 
 
 ## Poseidon
